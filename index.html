@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zenless Zone Zero Agent Selector</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <section id="home-screen" class="screen">
+        <div class="home-bg">
+            <button id="play-btn" class="zzz-btn">PLAY</button>
+        </div>
+    </section>
+
+    <section id="selection-screen" class="screen hidden">
+        <div class="header">
+            <h2>Zenless Zone Zero Agent</h2>
+            <p>Choose your Favorite Zenless Agent</p>
+        </div>
+        
+        <div class="arena">
+            <div id="left-card" class="agent-card">
+                <img id="left-img" src="" alt="Agent Left">
+                <div class="agent-info">
+                    <h3 id="left-name">Name</h3>
+                    <p id="left-faction">Faction</p>
+                </div>
+            </div>
+
+            <div class="vs-badge">VS</div>
+
+            <div id="right-card" class="agent-card">
+                <img id="right-img" src="" alt="Agent Right">
+                <div class="agent-info">
+                    <h3 id="right-name">Name</h3>
+                    <p id="right-faction">Faction</p>
+                </div>
+            </div>
+        </div>
+        
+        <h1 class="bg-text">ZZZ RES</h1>
+    </section>
+
+    <section id="win-screen" class="screen hidden">
+        <div class="header">
+            <h2>Zenless Zone Zero Agent</h2>
+            <p>BEST ZENLESS AGENT</p>
+        </div>
+
+        <div class="winner-container">
+            <div class="win-label">WIN</div>
+            <div class="agent-card winner-card">
+                <img id="win-img" src="" alt="Winner">
+                <div class="agent-info">
+                    <h3 id="win-name">Name</h3>
+                    <p id="win-faction">Faction</p>
+                </div>
+            </div>
+        </div>
+
+        <button id="restart-btn" class="zzz-btn dark-btn">RESTART</button>
+        
+        <h1 class="bg-text">ZZZ RES</h1>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
