@@ -1,9 +1,17 @@
+@font-face {
+    font-family: "zenless";
+    src: url('/assets/fonts/印品鸿蒙体.ttf')format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
 /* Global Reset & Fonts */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: Arial, sans-serif; 
+    font-family: 'zenless','san-serif'; 
 }
 
 /* Ensure the main background is dark like the mockup */
@@ -134,7 +142,7 @@ body {
 .agent-card img {
     width: 100%;
     height: 100%;
-    object-fit: cover;
+    object-fit: contain;
     opacity: 0.8;
 }
 
@@ -156,8 +164,9 @@ body {
 }
 
 .agent-info h3 {
-    font-size: 20px; /* Increased from 16px */
-    font-weight: bold;
+    font-size: 16px; /* Increased from 16px */
+    font-weight:lighter;
+    letter-spacing: 5px;
     text-transform: uppercase;
 }
 
